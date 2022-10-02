@@ -1,0 +1,12 @@
+### Terraform ###
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+
+# Crash log files
+crash.log
+
+# vars.tf ingore local variables
+vars.tf
