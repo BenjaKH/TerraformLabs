@@ -46,7 +46,7 @@ resource "proxmox_vm_qemu" "tf_server" {
   disk {
     slot = 0
     # set disk size here. leave it small for testing because expanding the disk takes time.
-    size = "10G"
+    size = "16G"
     type = "scsi"
     storage = "ZFSpool"
     iothread = 1

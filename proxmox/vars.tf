@@ -3,7 +3,7 @@ variable "ssh_key" {
   }
 
   variable "proxmox_host" {
-    default = "192.168.1.10"
+    default = "px"
 }
 
 variable "template_name" {
@@ -11,9 +11,9 @@ variable "template_name" {
 }
 
 variable "pm_api_token_secret" {
-    default = "a8c740bc-e036-4b17-964a-8bc323a05964"
+    default = "9a21a94f-7578-4082-8e75-cbd334515f92"
 }
 
 variable "pm_api_token_id" {
-    default = "TerraForm@pam!terraform"
+    default = "root@pam!terraform"
 }
