@@ -19,6 +19,9 @@ provider "proxmox" {
   
   # leave tls_insecure set to true unless you have your proxmox SSL certificate situation fully sorted out (if you do, you will know)
   pm_tls_insecure = true
+
+  # Enable Debug Mode in proxmox-api-go
+  pm_debug = true
 }
 
 # resource is formatted to be "[type]" "[entity_name]" so in this case
