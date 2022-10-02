@@ -9,3 +9,11 @@ variable "ssh_key" {
 variable "template_name" {
     default = "Ubuntu22.04"
 }
+
+variable "pm_api_token_secret" {
+    default = "a8c740bc-e036-4b17-964a-8bc323a05964"
+}
+
+variable "pm_api_token_id" {
+    default = "TerraForm@pam!terraform"
+}
